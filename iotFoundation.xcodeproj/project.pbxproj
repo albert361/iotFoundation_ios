@@ -16,9 +16,9 @@
 		24C900E71B791EEC00BF913B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C900E51B791EEC00BF913B /* LaunchScreen.xib */; };
 		24C900F31B791EEC00BF913B /* iotFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C900F21B791EEC00BF913B /* iotFoundationTests.swift */; };
 		24CC096B1B79B802003349B5 /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC096A1B79B802003349B5 /* PageItemController.swift */; };
-		24CC096D1B79DD6F003349B5 /* PageItemControlsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC096C1B79DD6F003349B5 /* PageItemControlsController.swift */; };
 		24CC09701B79DE5D003349B5 /* PageItemConnInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CC096F1B79DE5D003349B5 /* PageItemConnInfoController.swift */; };
 		24CC09751B79E84E003349B5 /* NSObject+NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC09741B79E84E003349B5 /* NSObject+NetworkHelper.m */; };
+		24CDC9F91B7A34510018E109 /* PageItemControlsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDC9F81B7A34510018E109 /* PageItemControlsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +47,11 @@
 		24C900F11B791EEC00BF913B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C900F21B791EEC00BF913B /* iotFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iotFoundationTests.swift; sourceTree = "<group>"; };
 		24CC096A1B79B802003349B5 /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
-		24CC096C1B79DD6F003349B5 /* PageItemControlsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageItemControlsController.swift; path = ../PageItemControlsController.swift; sourceTree = "<group>"; };
 		24CC096F1B79DE5D003349B5 /* PageItemConnInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemConnInfoController.swift; sourceTree = "<group>"; };
 		24CC09721B79E84D003349B5 /* iotFoundation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iotFoundation-Bridging-Header.h"; sourceTree = "<group>"; };
 		24CC09731B79E84E003349B5 /* NSObject+NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NetworkHelper.h"; sourceTree = "<group>"; };
 		24CC09741B79E84E003349B5 /* NSObject+NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetworkHelper.m"; sourceTree = "<group>"; };
+		24CDC9F81B7A34510018E109 /* PageItemControlsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemControlsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +133,7 @@
 		24CC096E1B79DD80003349B5 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				24CC096C1B79DD6F003349B5 /* PageItemControlsController.swift */,
+				24CDC9F81B7A34510018E109 /* PageItemControlsController.swift */,
 				24CC096F1B79DE5D003349B5 /* PageItemConnInfoController.swift */,
 				24CC096A1B79B802003349B5 /* PageItemController.swift */,
 			);
@@ -258,7 +258,7 @@
 			files = (
 				24CC096B1B79B802003349B5 /* PageItemController.swift in Sources */,
 				24C900DF1B791EEC00BF913B /* ViewController.swift in Sources */,
-				24CC096D1B79DD6F003349B5 /* PageItemControlsController.swift in Sources */,
+				24CDC9F91B7A34510018E109 /* PageItemControlsController.swift in Sources */,
 				24CC09701B79DE5D003349B5 /* PageItemConnInfoController.swift in Sources */,
 				24474D8C1B7A1A0900C4B19C /* GCDAsyncUdpSocket.m in Sources */,
 				24CC09751B79E84E003349B5 /* NSObject+NetworkHelper.m in Sources */,
